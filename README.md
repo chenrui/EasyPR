@@ -216,39 +216,3 @@ EasyPR的resources/image/general_test文件夹下的图片数据遵循[GDSL协�
 | annCh_train.hpp | 训练中文灰度字符
 | svm_train.hpp | 训练车牌判断
 | create_data.hpp | 生成合成数据
-
-### 使用
-
-请参考[这里](Usage.md)
-
-### 获取帮助
-
-详细的开发与教程请见[介绍与开发教程](http://www.cnblogs.com/subconscious/p/3979988.html)。
-
-如果你在使用过程中遇到任何问题，请在[这里](https://github.com/liuruoze/EasyPR/issues)告诉我们。
-
-EasyPR讨论QQ群号是：一群：366392603，二群：583022188，三群：637614031，加前请注明EasyPR学习讨论。
-
-### Contributors
-
-* liuruoze：1.0-1.2，1.5版作者
-
-* 海豚嘎嘎(车主之家)：1.3版算法贡献者，提升了车牌定位与字符识别的准确率
-
-* Micooz：1.3-1.4版架构重构，linux与mac支持，opencv3.0支持，utf-8编码转换
-
-* jsxyhelu：deface版本一
-
-* zhoushiwei：deface版本二
-
-* ahccom：新的plateLocate函数
-
-* 阿水：1.3版整合，数据标注等工作
-
-* fan-wenjie：1.5版opencv整合版提供者
-
-* Free：1.6版数据提供者
-
-### 鸣谢
-
-taotao1233，邱锦山，唐大侠，jsxyhelu，如果有一天(zhoushiwei)，学习奋斗，袁承志，圣城小石匠，goldriver，Micooz，梦里时光，Rain Wang，任薛纪，ahccom，星夜落尘，海豚嘎嘎(车主之家)，刘超，Free大神，以及所有对EasyPR贡献数据的热心同学。
