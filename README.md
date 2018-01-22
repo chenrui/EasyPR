@@ -29,26 +29,6 @@ EasyPR是一个开源的中文车牌识别系统，其目标是成为一个简�
 - [ ] 增加新能源车的识别（待定）
 - [ ] 增加两行车牌的识别（待定）
 
-### 跨平台
-
-目前除了windows平台以外，还有以下其他平台的EasyPR版本。一些平台的版本可能会暂时落后于主平台。
-
-现在有一个无需配置opencv的1.5版本的[懒人版](http://git.oschina.net/easypr/EasyPR/attach_files)。仅仅支持vs2013，也只能在debug和x86下运行，其他情况的话还是得配置opencv。感谢范文捷同学的帮助。页面里的两个文件都要下载，下载后用[7zip](http://www.7-zip.org/)解压。
-
-|版本 | 开发者 | 版本 | 地址 
-|------|-------|-------|-------
-| C# |  zhang-can  |  1.5  |  [zhang-can/EasyPR-DLL-CSharp](https://github.com/zhang-can/EasyPR-DLL-CSharp)
-| android |  goldriver  |  1.4  |  [linuxxx/EasyPR_Android](https://github.com/linuxxx/EasyPR_Android)
-| linux | Micooz  |  1.6  |  已跟EasyPR整合
-| ios | zhoushiwei |  1.3  |  [zhoushiwei/EasyPR-iOS](https://github.com/zhoushiwei/EasyPR-iOS)
-| mac | zhoushiwei,Micooz |  1.6  | 已跟EasyPR整合
-| java | fan-wenjie |  1.2  | [fan-wenjie/EasyPR-Java](https://github.com/fan-wenjie/EasyPR-Java)
-| 懒人版 | fan-wenjie |  1.5  | [git/oschina](http://git.oschina.net/easypr/EasyPR/attach_files)
-
-### 兼容性
-
-当前EasyPR是基于opencv3.0版本开发的，3.0及以上的版本应该可以兼容，以前的版本可能会存在不兼容的现象。
-
 ### 例子
 
 假设我们有如下的原始图片，需要识别出中间的车牌字符与颜色：
